@@ -1,0 +1,4 @@
+# Local Suricata rules (place in /etc/suricata/rules/local.rules)
+# Simple ICMP alert example:
+alert icmp any any -> any any (msg:"ICMP ping detected"; sid:1000001; rev:1;)
+
